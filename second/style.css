@@ -1,0 +1,90 @@
+html, body {
+	width:100%;
+	height:100%;
+	background: #D8D8D8;
+}
+
+.main {
+	width: 86%;
+	background:#FFFFFF;
+}
+
+.parent {
+	height: 25%;
+	margin: 5% 7% 5% 7%;
+	align: center;
+}
+
+.body-text {
+	height:70%;
+	width:100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.button {
+	height: 25%;
+	width: 20%;
+	color: white;
+	font-family: "Helvetica";
+	line-height: 0px;
+	font-size:36px;
+	margin: 0px 0px 5% 2%;
+	/*how do i make a sub element's positive relative to the parent element's, i tried position: relative and position:absolute */
+}
+
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+
+.parent2 {
+	height: 60%;
+	margin: 0px 7% 5% 7%;
+	align: center;
+	position: relative;
+}
+
+.image {
+	height:60%;
+	width:90%;
+	position: absolute;
+	margin: 5% 5% 5% 5%;
+	background: url(data:image/jpeg;base64,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) no-repeat;
+	background-size: cover;
+}
+
+.body-text2 {
+	height:25%;
+	width:100%;
+	padding: 5%;
+	box-sizing: border-box;
+	position: absolute;
+	top:70%;
+
+}
+
+.bottom {
+	width:100%;
+	height:10%;
+	background: #000;
+	z-index: 10;
+}
+/*why did i have to use z-index to get this to show up?*/
+/*why is there a random gap on the left side of the screen?*/
+.subtext {
+	height: 25%;
+	width: 20%;
+	color: white;
+	font-family: "Helvetica";
+	line-height: 0px;
+	font-size:24px;
+	float: right;
+	padding: 5%;
+	box-sizing: border-box;
+	/*what is this margin operating in relation to*/
+	/*how do i make a sub element's positive relative to the parent element's, i tried position: relative and position:absolute*/
+}

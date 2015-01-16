@@ -1,0 +1,88 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.parent {
+	width: 100%;
+	height: 20%;
+	background: white;
+	display:flex;
+	align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.child {
+	width: 30%;
+	height: 125px;
+	background: #000;
+}
+
+.red {
+	background: red;
+}
+
+.blue {
+	background: blue;
+}
+
+.gray {
+	background: gray;
+}
+
+.body-copy{
+	padding:20px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 30%;
+	overflow: auto;
+}
+
+.parent2 {
+	width:100%;
+	height:35%;
+	background:white;
+	padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle1 {
+	width:25%;
+	height:100%;
+}
+
+.middle2 {
+	width:75%;
+	height:100%;
+}
+
+.parent3 {
+	width:100%;
+	height:15%;
+	background:white;
+	padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom1 {
+	width:75%;
+	height:100%;
+}
+
+.bottom2 {
+	width:5%;
+	height:100%;
+}
+
+.bottom3 {
+	width:15%;
+	height:100%;
+}
